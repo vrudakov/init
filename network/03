@@ -1,0 +1,1 @@
+networksetup -listallhardwareports | grep  -A 2 "Bluetooth PAN" | sed -n 3p | awk '{print $3}'

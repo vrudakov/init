@@ -1,0 +1,41 @@
+
+; <<>> DiG 9.9.7-P3 <<>> 42.fr
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26820
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 5, ADDITIONAL: 11
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;42.fr.				IN	A
+
+;; ANSWER SECTION:
+42.fr.			2661	IN	A	163.172.250.12
+42.fr.			2661	IN	A	163.172.250.13
+42.fr.			2661	IN	A	163.172.250.11
+
+;; AUTHORITY SECTION:
+fr.			109117	IN	NS	g.ext.nic.fr.
+fr.			109117	IN	NS	d.ext.nic.fr.
+fr.			109117	IN	NS	f.ext.nic.fr.
+fr.			109117	IN	NS	d.nic.fr.
+fr.			109117	IN	NS	e.ext.nic.fr.
+
+;; ADDITIONAL SECTION:
+d.ext.nic.fr.		109117	IN	A	192.5.4.2
+d.ext.nic.fr.		109117	IN	AAAA	2001:500:2e::2
+d.nic.fr.		109117	IN	A	194.0.9.1
+d.nic.fr.		109117	IN	AAAA	2001:678:c::1
+e.ext.nic.fr.		109117	IN	A	193.176.144.22
+e.ext.nic.fr.		109117	IN	AAAA	2a00:d78::102:193:176:144:22
+f.ext.nic.fr.		109117	IN	A	194.146.106.46
+f.ext.nic.fr.		109117	IN	AAAA	2001:67c:1010:11::53
+g.ext.nic.fr.		109117	IN	A	194.0.36.1
+g.ext.nic.fr.		109117	IN	AAAA	2001:678:4c::1
+
+;; Query time: 0 msec
+;; SERVER: 10.51.1.253#53(10.51.1.253)
+;; WHEN: Sat Jun 23 19:03:59 EEST 2018
+;; MSG SIZE  rcvd: 390
+
