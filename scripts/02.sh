@@ -1,0 +1,1 @@
+sudo echo "0 4 * * 0 apt-get update && apt-get upgrade >> /var/log/update_script.log" | crontab
